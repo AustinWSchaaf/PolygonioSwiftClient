@@ -10,7 +10,7 @@ Consuming [Polygon.io](https://polygon.io/) with PolygonioSwiftClient
 import PolygonioSwiftClient
 
 //pass your api key to a newly instatiated Polygon object
-let client = PolygonClient(apiKey: apiKey)
+let client = PolygonioClient(apiKey: apiKey)
 
 //create your desired PolygonQuery - in this case we call the stock aggregate bars query
 let query = Query.stock.aggregateBars(ticker: "AAPL",
