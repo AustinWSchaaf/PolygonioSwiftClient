@@ -14,10 +14,10 @@ let client = PolygonClient(apiKey: apiKey)
 
 //create your desired PolygonQuery - in this case we call the stock aggregate bars query
 let query = Query.stock.aggregateBars(ticker: "AAPL",
-                                              multiplier: 1,
-                                              timespan: .minute,
-                                              from: QueryDate(year: 2021, month: 1, day: 28),
-                                              to: QueryDate(year: 2021, month: 1, day: 28))
+                                      multiplier: 1,
+                                      timespan: .minute,
+                                      from: QueryDate(year: 2021, month: 1, day: 28),
+                                      to: QueryDate(year: 2021, month: 1, day: 28))
 
 //pass your query to the client object 
 client.get(query: query) { (data, res, err) in
