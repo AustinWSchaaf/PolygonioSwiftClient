@@ -1,6 +1,5 @@
 //
-//  Polygonio.swift
-//  JSONDeocder
+//  PolygonioSwiftClient.swift
 //
 //  Created by Austin Schaaf on 1/22/21.
 //  Copyright © 2021 Austin Schaaf. All rights reserved.
